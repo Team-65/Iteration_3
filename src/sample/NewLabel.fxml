@@ -7,46 +7,169 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewLabelController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewLabelController">
     <children>
-        <Label layoutX="14.0" layoutY="14.0" text="Info:">
+        <Label layoutX="15.0" layoutY="15.0" text="Info:">
             <font>
-                <Font size="36.0" />
+                <Font name="Constantia" size="24.0" />
             </font>
         </Label>
-        <Button fx:id="Submit" layoutX="206.0" layoutY="455.0" mnemonicParsing="false" onAction="#fillOutApplication" prefHeight="41.0" prefWidth="85.0" text="Submit" />
-        <Button layoutX="312.0" layoutY="455.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="85.0" text="Back" />
-        <Label layoutX="101.0" layoutY="57.0" text="TTB ID:" />
-        <Label layoutX="100.0" layoutY="89.0" text="Rep ID Number:" />
-        <Label layoutX="100.0" layoutY="111.0" text="Plant Registry:" />
-        <Label layoutX="100.0" layoutY="133.0" text="Source:" />
-        <Label layoutX="99.0" layoutY="177.0" text="Type of Product:" />
-        <Label layoutX="99.0" layoutY="199.0" text="Brand Name:" />
-        <Label layoutX="100.0" layoutY="221.0" text="Applicant Name:" />
-        <Label layoutX="101.0" layoutY="247.0" text="Formula:" />
-        <Label layoutX="101.0" layoutY="277.0" text="Phone Number:" />
-        <Label layoutX="100.0" layoutY="305.0" text="Email Address:" />
-        <Label layoutX="99.0" layoutY="155.0" text="Serial Number:" />
-        <CheckBox fx:id="dom" layoutX="227.0" layoutY="135.0" mnemonicParsing="false" onAction="#handledomBox" text="Domestic" />
-        <CheckBox fx:id="imp" layoutX="310.0" layoutY="135.0" mnemonicParsing="false" onAction="#handleimpBox" text="Imported" />
-        <CheckBox fx:id="wine" layoutX="227.0" layoutY="179.0" mnemonicParsing="false" onAction="#handlewineBox" text="Wine" />
-        <CheckBox fx:id="beer" layoutX="288.0" layoutY="179.0" mnemonicParsing="false" onAction="#handlebeerBox" text="Beer" />
-        <CheckBox fx:id="other" layoutX="345.0" layoutY="179.0" mnemonicParsing="false" onAction="#handleotherBox" text="Other" />
-        <TextField fx:id="ID" layoutX="226.0" layoutY="52.0" />
-        <TextField fx:id="RepID" layoutX="226.0" layoutY="85.0" />
-        <TextField fx:id="PlantReg" layoutX="226.0" layoutY="107.0" />
-        <TextField fx:id="SerialNo" layoutX="226.0" layoutY="153.0" />
-        <TextField fx:id="BrandName" layoutX="226.0" layoutY="198.0" />
-        <TextField fx:id="Name" layoutX="226.0" layoutY="220.0" />
-        <TextField fx:id="Formula" layoutX="226.0" layoutY="242.0" />
-        <TextField fx:id="PhoneNumber" layoutX="226.0" layoutY="272.0" />
-        <TextField fx:id="EmailAddress" layoutX="226.0" layoutY="300.0" />
-      <Button fx:id="back" layoutX="14.0" layoutY="424.0" mnemonicParsing="false" onAction="#buttonClicked" text="Back" />
-      <Label layoutX="99.0" layoutY="374.0" prefHeight="21.0" prefWidth="98.0" text="VintageYear:" />
-      <TextField fx:id="Vintage" layoutX="226.0" layoutY="369.0" />
-      <Label layoutX="98.0" layoutY="405.0" prefHeight="21.0" prefWidth="98.0" text="pH Level:" />
-      <TextField fx:id="pH" layoutX="226.0" layoutY="400.0" />
-      <Label layoutX="99.0" layoutY="339.0" prefHeight="21.0" prefWidth="98.0" text="Address" />
-      <TextField fx:id="Address" layoutX="226.0" layoutY="334.0" />
+        <Button fx:id="Submit" layoutX="901.0" layoutY="645.0" mnemonicParsing="false" onAction="#fillOutApplication" prefHeight="41.0" prefWidth="85.0" text="Submit" />
+        <Button layoutX="800.0" layoutY="645.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="85.0" text="Clear" />
+        <Label layoutX="15.0" layoutY="70.0" text="TTB ID:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="300.0" layoutY="70.0" text="Rep ID Number:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="675.0" layoutY="70.0" text="Plant Registry:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="15.0" layoutY="120.0" text="Source:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="500.0" layoutY="120.0" text="Type of Product:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="500.0" layoutY="226.0" text="Brand Name:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="15.0" layoutY="266.0" text="Applicant Name:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="15.0" layoutY="306.0" text="Formula:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="15.0" layoutY="346.0" text="Phone Number:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="500.0" layoutY="346.0" text="Email Address:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <Label layoutX="15.0" layoutY="226.0" text="Serial Number:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <CheckBox fx:id="dom" layoutX="100.0" layoutY="118.0" mnemonicParsing="false" onAction="#handledomBox" text="Domestic">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></CheckBox>
+        <CheckBox fx:id="imp" layoutX="250.0" layoutY="118.0" mnemonicParsing="false" onAction="#handleimpBox" text="Imported">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></CheckBox>
+        <CheckBox fx:id="wine" layoutX="680.0" layoutY="118.0" mnemonicParsing="false" onAction="#handlewineBox" text="Wine">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></CheckBox>
+        <CheckBox fx:id="beer" layoutX="790.0" layoutY="118.0" mnemonicParsing="false" onAction="#handlebeerBox" text="Beer">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></CheckBox>
+        <CheckBox fx:id="other" layoutX="885.0" layoutY="118.0" mnemonicParsing="false" onAction="#handleotherBox" text="Other">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></CheckBox>
+        <TextField fx:id="ID" layoutX="475.0" layoutY="73.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="RepID" layoutX="100.0" layoutY="73.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="PlantReg" layoutX="830.0" layoutY="73.0" prefHeight="28.0" prefWidth="165.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="SerialNo" layoutX="200.0" layoutY="226.0" prefWidth="250.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="BrandName" layoutX="200.0" layoutY="266.0" prefWidth="250.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="Name" layoutX="200.0" layoutY="306.0" prefWidth="250.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="Formula" layoutX="200.0" layoutY="346.0" prefWidth="250.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="PhoneNumber" layoutX="200.0" layoutY="386.0" prefWidth="250.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="EmailAddress" layoutX="700.0" layoutY="266.0" prefWidth="250.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <Button fx:id="back" layoutX="14.0" layoutY="645.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="41.0" prefWidth="69.0" text="Back" />
+        <Label layoutX="16.0" layoutY="386.0" prefHeight="29.0" prefWidth="140.0" text="VintageYear:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <TextField fx:id="Vintage" layoutX="700.0" layoutY="346.0" prefWidth="250.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <Label layoutX="500.0" layoutY="386.0" prefHeight="29.0" prefWidth="104.0" text="pH Level:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <TextField fx:id="pH" layoutX="700.0" layoutY="386.0" prefWidth="250.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+        <Label layoutX="500.0" layoutY="266.0" prefHeight="21.0" prefWidth="98.0" text="Address:">
+            <font>
+                <Font name="Constantia" size="24.0" />
+            </font></Label>
+        <TextField fx:id="Address" layoutX="700.0" layoutY="226.0" prefWidth="250.0">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font></TextField>
+      <Label layoutX="519.0" layoutY="622.0" text="Fanciful Name:">
+         <font>
+            <Font name="Constantia" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="567.0" layoutY="546.0" text="Mailing Address:">
+         <font>
+            <Font name="Constantia" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="476.0" text="Grape Varietal:">
+         <font>
+            <Font name="Constantia" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="673.0" layoutY="589.0" text="Wine Appellation:">
+         <font>
+            <Font name="Constantia" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="160.0" text="Type of Application:">
+         <font>
+            <Font name="Constantia" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="476.0" text="Additional Information:">
+         <font>
+            <Font name="Constantia" size="24.0" />
+         </font>
+      </Label>
     </children>
 </Pane>
