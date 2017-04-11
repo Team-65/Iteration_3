@@ -20,7 +20,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import java.util.List;
 import javafx.collections.ObservableList;
-import org.apache.derby.iapi.db.Database;
+//import org.apache.derby.iapi.db.Database;
 
 public class SearchMenuController {
 

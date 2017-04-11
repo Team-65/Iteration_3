@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchMenuController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchMenuController">
    <children>
       <Label layoutX="14.0" layoutY="14.0" text="Alcohol Type:">
          <font>
@@ -37,7 +37,7 @@
             <Font size="16.0" />
          </font>
       </CheckBox>
-      <CheckBox fx:id="IsOther" layoutX="265.0" layoutY="16.0" mnemonicParsing="false" text="Other">
+      <CheckBox fx:id="IsOther" layoutX="265.0" layoutY="16.0" mnemonicParsing="false" text="Distilled Spirits">
          <font>
             <Font size="16.0" />
          </font>
