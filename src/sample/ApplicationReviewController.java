@@ -86,7 +86,7 @@ public class ApplicationReviewController extends DatabaseUtil{
         String sql = "UPDATE ALCOHOL SET status = 'rejected', comments =" + comments + " WHERE id = apptoassgn";
         stm.executeUpdate(sql);
         //update inbox for worker
-        sql = "UPDATE REVIEWS SET " + w.getInbox().remove(apptoassgn) + " WHERE username = "+ w.getUsername() +" ";
+        //sql = "UPDATE REVIEWS SET " + w.getInbox().remove(apptoassgn) + " WHERE username = "+ w.getUsername() +" ";
         stm.executeUpdate(sql);
     }
 

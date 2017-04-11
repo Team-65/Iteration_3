@@ -13,13 +13,10 @@ import java.sql.Statement;
 public class Main extends Application{
     ScreenUtil screenUtil = new ScreenUtil();
 
-
     @Override
     public void start(Stage primaryStage) throws Exception{
         screenUtil.switchScene("Login.fxml", "Login");
    }
-
-
 
     public static void main(String[] args) throws SQLException{
         DatabaseUtil db = new DatabaseUtil();

@@ -13,6 +13,9 @@ public class Account implements Serializable{
     private boolean isLoggedIn;
     private ArrayList<String> inbox = new ArrayList<>();
 
+    protected enum userTypes {
+        GOVERNMENT_AGENT, MANUFACTURER, PUBLIC_USER
+    };
 
     public Account(String usrnm, int accL, ArrayList<String> inbox){
         username = usrnm;
