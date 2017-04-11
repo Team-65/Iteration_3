@@ -10,6 +10,7 @@ import javafx.stage.Stage;
 import javafx.scene.control.Button;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -49,11 +50,32 @@ public class NewLabelController{
     @FXML private TextField Address;
     @FXML private Button Submit;
     @FXML private Button back;
+    @FXML private Button clear;
 
     Connection cn;
     Statement sm;
     DatabaseUtil db = new DatabaseUtil();
 
+    @FXML
+    private void setClear(){
+        ID.setText("");
+        RepID.setText("");
+        PlantReg.setText("");
+        SerialNo.setText("");
+        BrandName.setText("");
+        Name.setText("");
+        Formula.setText("");
+        PhoneNumber.setText("");
+        EmailAddress.setText("");
+        Vintage.setText("");
+        pH.setText("");
+        Address.setText("");
+        dom.setSelected(false);
+        imp.setSelected(false);
+        wine.setSelected(false);
+        beer.setSelected(false);
+        other.setSelected(false);
+    }
     @FXML
     private void handledomBox(){
         if(dom.isSelected()){
@@ -237,8 +259,8 @@ public class NewLabelController{
         int runThroughs = (int)(unAssignedForms.size())/10;
         for(int i = 0; i <= runThroughs; i++) {;
             for (int j = 0; j <= 10; j++) {
-                Account worker = databaseUtil.searchMinWorkLoad();
-                databaseUtil.assignForm(worker, unAssignedForms.get(j));
+                //Account worker = databaseUtil.searchMinWorkLoad();
+                //databaseUtil.assignForm(worker, unAssignedForms.get(j));
             }
         }
     }

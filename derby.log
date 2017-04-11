@@ -1,18 +1,13 @@
 ----------------------------------------------------------------
-Tue Apr 11 16:25:22 EDT 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015b-5eb1-2fb4-00000d4e13f8 
-on database directory C:\Users\Adonay\IdeaProjects\Iteration_1\Database\ProjectC with class loader sun.misc.Launcher$AppClassLoader@14dad5dc 
-Loaded from file:/C:/Users/Adonay/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+Tue Apr 11 18:43:59 EDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015b-5f30-16ab-000009ef9770 
+on database directory C:\Users\Lucy\IdeaProjects\Iteration_2\Database\ProjectC with class loader sun.misc.Launcher$AppClassLoader@1b6d3586 
+Loaded from file:/C:/Users/Lucy/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_60-b27
-user.dir=C:\Users\Adonay\IdeaProjects\Iteration_1
+java.runtime.version=1.8.0_121-b13
+user.dir=C:\Users\Lucy\IdeaProjects\Iteration_2
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0
 derby.system.home=null
-------------  Begin Error Message -------------
-
-System may be in a inconsistent state, missing file C:\Users\Adonay\IdeaProjects\Iteration_1\Database\ProjectC\log\log2.dat
-------------  End Error Message -------------
-
 Database Class Loader started - derby.database.classpath=''
