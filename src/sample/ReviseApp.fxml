@@ -14,7 +14,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="816.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ReviseAppController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="816.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ReviseAppController">
     <children>
         <Label layoutX="15.0" layoutY="15.0" text="FormID :">
             <font>
@@ -288,5 +288,6 @@
             </LinearGradient>
          </fill>
       </Rectangle>
+      <Button fx:id="pdfDownload" layoutX="421.0" layoutY="755.0" mnemonicParsing="false" onAction="#openFileChooser" text="Save as PDF" />
     </children>
 </Pane>
