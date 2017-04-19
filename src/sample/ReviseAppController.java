@@ -76,7 +76,7 @@ public class ReviseAppController {
     }
 
 
-    @FXML
+    private String pdfDownloadDir = "";
     /**
      * Initializes the Application Revision Screen.
      */
@@ -565,7 +565,7 @@ public class ReviseAppController {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Choose label picture");
         File selectedFile = fileChooser.showOpenDialog(ReviseMenu);
-        revisionImagePath = selectedFile.getPath();
+        pdfDownloadDir = selectedFile.getPath();
     }
 
 
