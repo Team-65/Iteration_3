@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * Created by John on 4/19/2017.
  */
 public class SupervisorController {
-    private ScreenUtil screenUtil;
+    private ScreenUtil screenUtil = new ScreenUtil();
     private DatabaseUtil databaseUtil;
     AccountsUtil accountsUtil;
 
@@ -37,6 +37,13 @@ public class SupervisorController {
     Button search;
     @FXML
     TreeView<TItem> view;
+    @FXML Button back;
+
+    @FXML
+    public void goBack(){
+        screenUtil.switchScene("MainMenu.fxml", "Main Menu");
+
+    }
 
 
     public void initialize() throws SQLException {
